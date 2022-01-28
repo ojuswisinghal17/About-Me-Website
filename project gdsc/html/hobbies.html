@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ojuswi Singhal">
+    <meta name="description"
+        content="This is the Hobbies page of my personal website.It contains my hobbies and small description of each">
+    <meta name="keywords" content="">
+    <script src="https://kit.fontawesome.com/2251f90d04.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../css/favicon-96x96-modified.png">
+    <title>Hobbies&nbsp;|&nbsp;About Me</title>
+    <style>
+        body {
+            background-image: url("../css/b.jpg");
+
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function showStuff1() {
+            let hidden = document.getElementById('hidden1');
+            if (hidden.style.display == "none") {
+                hidden.style.display = "block"
+            } else {
+                hidden.style.display = "none"
+            }
+        }
+        function showStuff2() {
+            let hidden = document.getElementById('hidden2');
+            if (hidden.style.display == "none") {
+                hidden.style.display = "block"
+            } else {
+                hidden.style.display = "none"
+            }
+
+        }
+        function showStuff3() {
+            let hidden = document.getElementById('hidden3');
+            if (hidden.style.display == "none") {
+                hidden.style.display = "block"
+            } else {
+                hidden.style.display = "none"
+            }
+        }
+        function showStuff4() {
+            let hidden = document.getElementById('hidden4');
+            if (hidden.style.display == "none") {
+                hidden.style.display = "block"
+            } else {
+                hidden.style.display = "none"
+            }
+        }
+    </script>
+    <div class="topnav">
+        <a href="home.html"><i class="fas fa-user"></i>&nbsp;Ojuswi</a>
+        <div class="topnav-right">
+            <a href="home.html"><i class="fas fa-home"></i>&nbsp;Home</a>
+            <a class="active" href="hobbies.html"><i class="fas fa-tasks"></i>&nbsp;<u>My Hobbies</u></a>
+            <a href="skills.html"><i class="fas fa-code"></i>&nbsp;Skills</a>
+
+        </div>
+    </div>
+    <h1 style="text-align: center;">My Hobbies</h1><br><br>
+    <div class="col">
+
+        <a href="#" onClick="showStuff1()">
+            <img src="../css/coding.png" width="100" height="100"></a>
+
+        <div id="hidden1" style="display: none">
+            <br><br>
+            <h2>Coding</h2>
+            <h3>
+                // life moto <br>
+                &nbsp; if( sad() === true ) {<br>
+                sad().stop();<br>
+                beAwesome();<br>
+                }
+            </h3>
+            <p></p>
+        </div>
+    </div>
+    <div class="col">
+
+        <a href="#" onClick="showStuff2()">
+            <img src="../css/cooking.jpg" width="100" height="100"></a>
+
+        <div id="hidden2" style="display: none">
+            <br><br>
+            <h2>Cooking</h2>
+            <h3>
+                "Good food makes for<br>
+                &nbsp a good mood"
+            </h3>
+        </div>
+    </div>
+    <div class="col">
+
+        <a href="#" onClick="showStuff3()">
+            <img src="../css/cricket.png" width="100" height="100" /></a>
+
+        <div id="hidden3" style="display: none">
+            <br><br>
+            <h2>Cricket</h2>
+            <h3>
+                "Enjoy the games and chase your dreams.<br>
+                &nbsp; Dreams do come true."<br>
+                <h4>&nbsp;-<i>Sachin Tendulkar</i></h4>
+            </h3>
+
+        </div>
+    </div>
+    <div class="col">
+
+        <a href="#" onClick="showStuff4()">
+            <img src="../css/badminton.jpg" width="100" height="100" /></a>
+
+        <div id="hidden4" style="display: none">
+            <br><br>
+            <h2>Badminton</h2>
+            <h3>
+                "No loss is never enough, neither one<br>
+                &nbsp; nor many to stop me <br>
+                &nbsp; from believing in myself."<br>
+                <h4>&nbsp;-<i>PV Sindhu</i></h4>
+            </h3>
+            <p></p>
+        </div>
+    </div>
+</body>
+
+</html>
