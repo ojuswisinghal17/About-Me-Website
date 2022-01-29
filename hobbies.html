@@ -8,7 +8,7 @@
     <meta name="author" content="Ojuswi Singhal">
     <meta name="description"
         content="This is the Hobbies page of my personal website.It contains my hobbies and small description of each">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="My Hobbies, About me">
     <script src="https://kit.fontawesome.com/2251f90d04.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="icon" type="image/png" sizes="32x32" href="css/favicon-96x96-modified.png">
@@ -17,6 +17,13 @@
         body {
             background-image: url("css/b.jpg");
 
+        }
+
+        h1 {
+            background: -webkit-linear-gradient(#eee, #333);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     </style>
 </head>
@@ -58,7 +65,7 @@
         }
     </script>
     <div class="topnav">
-        <a href="index.html"><i class="fas fa-user"></i>&nbsp;Ojuswi</a>
+        <a href="index.html"><i class="fas fa-user"></i>&nbsp;Ojuswi Singhal</a>
         <div class="topnav-right">
             <a href="index.html"><i class="fas fa-home"></i>&nbsp;Home</a>
             <a class="active" href="hobbies.html"><i class="fas fa-tasks"></i>&nbsp;<u>My Hobbies</u></a>
@@ -66,72 +73,110 @@
 
         </div>
     </div>
-    <h1 style="text-align: center;">My Hobbies</h1><br><br>
-    <div class="col">
+    <div class="main">
+        <h1
+            style="text-align: center;font-size: 55px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            My Hobbies</h1><br><br>
+        <div class="col">
 
-        <a href="#" onClick="showStuff1()">
-            <img src="css/coding.png" width="100" height="100"></a>
+            <a href="#" onClick="showStuff1()">
+                <img src="css/coding.png" width="100" height="100"></a>
 
-        <div id="hidden1" style="display: none">
-            <br><br>
-            <h2>Coding</h2>
-            <h3>
-                // life moto <br>
-                &nbsp; if( sad() === true ) {<br>
-                sad().stop();<br>
-                beAwesome();<br>
-                }
-            </h3>
-            <p></p>
+            <div id="hidden1" style="display: none">
+                <h2>Coding</h2>
+                <!-- <h4>
+                    // life moto <br>
+                    &nbsp; if( sad() === true ) {<br>
+                    sad().stop();<br>
+                    beAwesome();<br>
+                    }
+                </h4> -->
+                <p class="para">I am new in the coding world,
+                    learning and enjoying this phase, looking
+                    forward to gain experience in this field.<br>
+                    Eat, Sleep, Code, Repeat !
+                </p><br>
+                <img src="css/4.png" width="330"
+                    style="border-radius: 8px; border-style: solid;border-color: blanchedalmond; ">
+            </div>
+        </div>
+        <div class="col">
+
+            <a href="#" onClick="showStuff2()">
+                <img src="css/cooking.jpg" width="100" height="100"></a>
+
+            <div id="hidden2" style="display: none">
+                <h2>Cooking</h2>
+                <!-- <h4>
+                    "Good food makes for<br>
+                    &nbsp a good mood"
+                </h4> -->
+                <p class="para">I love to cook as it uplifts my
+                    mood especially during this never ending
+                    lockdown.<br>
+                    Foodie for life ! </p><br><br><br>
+                <img src="css/1.png" width="330"
+                    style="border-radius: 8px; border-style: solid;border-color: blanchedalmond; ">
+            </div>
+        </div>
+        <div class="col">
+
+            <a href="#" onClick="showStuff3()">
+                <img src="css/cricket.png" width="100" height="100" /></a>
+
+            <div id="hidden3" style="display: none">
+                <h2>Cricket</h2>
+                <!-- <h4>
+                    "Enjoy the games and chase your dreams.<br>
+                    &nbsp; Dreams do come true."<br>
+                    <h4>&nbsp;-<i>Sachin Tendulkar</i></h4>
+                </h4><br> -->
+                <p class="para">I love to watch this sport, used to
+                    play as well before my Jee but not
+                    after that &nbsp;:( <br>
+                    Wanna live this game again ! </p><br><br><br>
+                <img src="css/2.png" width="330"
+                    style="border-radius: 8px; border-style: solid;border-color: blanchedalmond; ">
+            </div>
+        </div>
+        <div class="col">
+
+            <a href="#" onClick="showStuff4()">
+                <img src="css/badminton.jpg" width="100" height="100" /></a>
+
+            <div id="hidden4" style="display: none">
+                <h2>Badminton</h2>
+                <!-- <h4>
+                    "No loss is never enough, neither one<br>
+                    &nbsp; nor many to stop me <br>
+                    &nbsp; from believing in myself."<br>
+                    <h4>&nbsp;-<i>PV Sindhu</i></h4>
+                </h4><br> -->
+                <p class="para">I love playing this sport as
+                    it includes full body exercise, still
+                    playing it but honestly not into
+                    watching it.<br>
+                    Drink lipton play badminton & stay fit !
+                </p><br>
+                <img src="css/3.png" width="330"
+                    style="border-radius: 8px; border-style: solid;border-color: blanchedalmond; ">
+            </div>
         </div>
     </div>
-    <div class="col">
-
-        <a href="#" onClick="showStuff2()">
-            <img src="css/cooking.jpg" width="100" height="100"></a>
-
-        <div id="hidden2" style="display: none">
-            <br><br>
-            <h2>Cooking</h2>
-            <h3>
-                "Good food makes for<br>
-                &nbsp a good mood"
-            </h3>
-        </div>
-    </div>
-    <div class="col">
-
-        <a href="#" onClick="showStuff3()">
-            <img src="css/cricket.png" width="100" height="100" /></a>
-
-        <div id="hidden3" style="display: none">
-            <br><br>
-            <h2>Cricket</h2>
-            <h3>
-                "Enjoy the games and chase your dreams.<br>
-                &nbsp; Dreams do come true."<br>
-                <h4>&nbsp;-<i>Sachin Tendulkar</i></h4>
-            </h3>
+    <footer class="foot">
+        <a href="https://www.linkedin.com/in/ojuswi-singhal-a597bb203/" target="_blank"> <i class="fab fa-linkedin"
+                style="font-size:40px;color: blue;"></i></a> &nbsp;&nbsp;
+        <a href="https://github.com/ojuswisinghal17" target="_blank"> <i class="fa fa-github-square"
+                style="font-size:40px;"></i></a> &nbsp;&nbsp;
+        <a href="https://instagram.com/ojuswisinghal17" target="_blank"> <i class="fab fa-instagram-square"
+                style="font-size:40px;color: rgba(128, 0, 128, 0.945);"></i></a>
+        <div class="topnav-right">
+            Contact No.&nbsp;:&nbsp;(+91) 742391344 <br>
+            Email id&nbsp;:&nbsp;ojuswisinghal.17@gmail.com
 
         </div>
-    </div>
-    <div class="col">
+    </footer>
 
-        <a href="#" onClick="showStuff4()">
-            <img src="css/badminton.jpg" width="100" height="100" /></a>
-
-        <div id="hidden4" style="display: none">
-            <br><br>
-            <h2>Badminton</h2>
-            <h3>
-                "No loss is never enough, neither one<br>
-                &nbsp; nor many to stop me <br>
-                &nbsp; from believing in myself."<br>
-                <h4>&nbsp;-<i>PV Sindhu</i></h4>
-            </h3>
-            <p></p>
-        </div>
-    </div>
 </body>
 
 </html>

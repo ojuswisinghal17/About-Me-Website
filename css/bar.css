@@ -1,4 +1,4 @@
-* {box-sizing: border-box}
+
 
 .container {
   width: 80%;
@@ -17,7 +17,8 @@
   margin: 100px;
     padding: 10px;
 }
-.python {width: 60%; background-color: #04AA6D;}
-.css {width: 20%; background-color: #2196F3;}
-.c {width: 70%; background-color: #f44336;}
-.html {width: 40%; background-color: #808080;}
+.python {width: 40%; background-color: #04AA6D;}
+.css {width: 50%; background-color: #2196F3;}
+.c {width: 30%; background-color: #f44336;}
+.html {width: 60%; background-color: #808080;}
+.jv {width: 20%; background-color: #a0b105;}
